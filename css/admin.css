@@ -1,0 +1,173 @@
+/* 
+Author: Kinjal Suryaavanshi;
+Theme: Food Order Website Admin
+version: 1.0;
+*/
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper
+{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix
+{
+    float: none;
+    clear: both;
+}
+
+.text-center
+{
+    text-align: center;
+}
+/* CSS for menu */
+.menu
+{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #FF33CC;
+}
+.menu ul li a:hover
+{
+    color:#FF0099;
+}
+
+
+/* CSS for main content */
+.main-content
+{
+    padding: 3% 0;;
+    background-color: #f3f2f6;
+}
+.col-4
+{
+ 
+    width: 19%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+.tbl-full
+{
+    width: 100%;
+}
+table tr th{
+    border-bottom:1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.tbl-30
+{
+    width: 40%;
+}
+.input-field
+{
+    padding: 2%;
+}
+.btn-primary
+{
+    background-color: blue;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border:none;
+}
+.btn-primary:hover{
+    background-color: darkblue;
+}
+.btn-dark
+{
+    background-color: rgb(112, 180, 3);
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+}
+.btn-dark:hover
+{
+    background-color: rgb(158, 245, 29);
+}
+.btn-secondary
+{
+    background-color:rgb(9, 204, 207);
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+  border:none;
+}
+.btn-secondary:hover{
+background-color: rgb(7, 255, 243);
+}
+.btn-danger
+{
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+background-color: rgb(255, 71, 71);
+}
+.btn-danger:hover
+{
+background-color: red;
+}
+.btn-login
+{
+    padding: 3%;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+background-color: rgb(255, 71, 141);
+}
+.btn-login:hover
+{
+    background-color: rgb(255, 6, 101);
+}
+.success
+{
+    color: green;
+}
+.error
+{
+    color: red;
+}
+
+/* CSS for login page */
+.login
+{
+    width: 20%;
+    border: 1px solid black;
+    margin: 5% auto;
+    padding: 2%;
+}
+
+/* CSS for footer */
+.footer
+{
+    background-color: #FF0099;
+    color: white;
+}

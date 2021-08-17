@@ -1,0 +1,239 @@
+/* 
+    Author: Kinjal Suryavanshi
+    Theme: Restaurant Food Order;
+    Version:1.0;
+
+*/
+
+/* CSS for all */
+*{
+    margin: 0;
+    padding: 2px 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container
+{
+    width: 80%;
+  
+    margin: 0 auto;
+}
+.text-right
+{
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    color: #FF33CC;
+}
+a:hover{
+    color: #FF0099;
+}
+.text-center
+{
+    text-align: center;
+}
+.btn
+{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-primary
+{
+    background-color: #CC33FF;
+    color: white;
+}
+.btn-primary:hover
+{
+    color: white;
+    background-color: #CC00FF;
+}
+h2{
+    color:#333333;
+    font-size: 1.3rem;
+}
+.float-container
+{
+    position: relative;
+}
+
+.img-curve
+{
+    border-radius: 5px;
+    padding: 0;
+}
+.img-responsive
+{
+    width: 100%;
+  
+}
+.float-text1
+{
+    position: absolute;
+    color: black;
+   
+    left: 21%;
+}
+.float-text2
+{
+    position: absolute;
+ 
+    color: black;
+    left: 47%;
+}
+.float-text3
+{
+    position: absolute;
+
+    left: 73%;
+    color: black;
+}
+
+/* CSS for navbar section */
+.logo
+{
+    width: 8%;
+
+    float: left;
+}
+.logo-img
+{
+    display: relative;
+}
+.food-title
+{display: absolute;
+    float: left;
+    margin-top: 2%;
+    top:2%;
+width: 8%;
+}
+.clearfix
+{
+    clear: both;
+    float: none;
+}
+.menu{
+    line-height: 100px;
+}
+
+.menu ul
+{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;;
+    font-weight: bold;
+}
+
+
+/* CSS for food search section */
+.food-search
+{
+    background-image: url(../images/kabir-cheema-oUIPGCBx2OI-unsplash.jpg);
+    padding: 10% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.food-search input[type='search']
+{
+    width: 50%;
+    padding: 1%;
+    font-size:1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+/* CSS for categories */
+.categories
+{
+padding: 4% 0;
+}
+.box-3
+{
+
+    width: 30%;
+    float: left;
+    padding: 0 1%;
+    margin: 0.5%;
+}
+
+
+/* CSS for food menu */
+.food-menu{
+    background-color: #ececec;
+    padding: 4% 0;;
+}
+.food-menu-box
+{
+
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+.food-menu-img
+{
+    width: 45%;
+    float: left;
+}
+.food-menu-desc
+{
+    width: 40%;
+    float: left;
+  margin-left: 5%;
+  line-height: 25px;
+}
+.food-price
+{
+    font-size: 1.2rem;
+    margin-left: 1%;
+}
+.food-detail
+{
+    font-size: 0.9rem;
+    color: #747d8c;
+}
+.food-btn
+{
+    margin-top: 1%;
+    padding: 5%;
+}
+
+/* CSS for social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* CSS for ,obile size or smaller screen */
+@media only screen and (max-width:768px){
+    .logo
+    {
+        width: 70%;
+     
+        margin:0 auto ;
+    }
+    .food-title
+    {
+        margin-top: 10%;
+    }
+
+}
+
+.success
+{
+    color: green;
+}
+.error
+{
+    color: red;
+}
